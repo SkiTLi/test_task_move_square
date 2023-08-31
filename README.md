@@ -1,16 +1,13 @@
-# cube_animation
+В ходе выполнения тестового задания допускается использование любой документации.
 
-A new Flutter project.
+https://dartpad.dev/?id=a45f6a2eddcdaeb41bbfcea0e9352354
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Необходимо реализовать функционал передвижения красного квадрата по нажатию на кнопки (влево, вправо). 
+Требования: 
+1. Стартовое положение квадрата должно быть по центу. 
+2. При нажатии кнопки "вправо" квадрат будет перемещаться к правой границе экрана;
+3. При нажатии кнопки "влево" квадрат будет перемещаться к левой границе экрана;
+4. Если квадрат находится у левой границы экрана, кнопка "влево" находится в disabled состоянии;
+5. Если квадрат находится у правой границы экрана, кнопка "вправо" находится в disabled состоянии;
+6. Перемещение должно быть анимированным, длительность анимации составляет одну секунду;
+7. Во время перемещения обе кнопки переходят в disabled состояние.
